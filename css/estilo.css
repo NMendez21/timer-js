@@ -1,0 +1,90 @@
+:root{
+	--type: "Century Gothic",sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.contador__special{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: var(--type);
+	background-color: black;
+	color: white;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contador__special>div{
+	margin: 0 5px;
+}
+
+#title__special{
+	font-size: 30px;
+}
+
+#title__special span{
+	color: #00F9FD;
+}
+
+.simply-amount{
+	color: #00F9FD;
+}
+
+#title__special span.union{
+	font-size: 23px;
+	color: white;
+}
+
+#contador{
+	display: flex;
+	justify-content: center;
+	
+	background-color: black;
+	color: white;
+}
+
+.simply-section{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.simply-section div{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+@media(min-width: 320px) AND (max-width: 767px)
+{
+
+	.contador__special{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		font-family: var(--type);
+		background-color: black;
+		color: white;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	#title__special{
+		font-size: 20px;
+	}
+
+	#title__special span.union{
+		font-size: 15px;
+		color: white;
+	}
+
+}
